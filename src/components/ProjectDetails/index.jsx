@@ -184,6 +184,18 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
+    var buttons = ""
+    var image =""
+    var buttons2 = ""
+    if (project["webapp"] != ""){
+        buttons = <Button href={project["webapp"]} target='new'>View Live App</Button>
+        
+    }
+    if (project["category"] == "web app"){
+        image = <Image src={project?.image} />
+        buttons2 = <Button dull href={project?.github} target='new'>View Code</Button>
+    }
+
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container>
@@ -197,7 +209,8 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    {/* <Image src={project?.image} /> */}
+                    {image}
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
@@ -206,6 +219,11 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
+                    <Desc>
+                        {project?.points.map((points) => (
+                            <Desc>* {points}</Desc>
+                        ))}
+                    </Desc>
                     {project.member && (
                         <>
                             <Label>Members</Label>
@@ -226,8 +244,8 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {buttons2}
+                        {buttons}
                     </ButtonGroup>
                 </Wrapper>
             </Container>

@@ -7,13 +7,11 @@ export const Bio = {
   ],
   description:
     "I am a goal-driven Full Stack Developer with over 2 years of experience specializing in optimizing code efficiency. Proficient in Python, Django, and Automation Anywhere, I am eager to join and make impactful contributions to product development. My passion for learning, positive attitude, and growth mindset drive me to consistently deliver high-quality results and tackle new challenges effectively.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/Shashank-s3/",
   resume:
     "https://drive.google.com/file/d/1bhReW1NNnVuHrQe8c7jKyzY4j1Idx85N/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/in/sirigiripet-shashank-73b66b192/",
+  insta: "https://www.instagram.com/shashi_s3/",
 };
 
 export const skills = [
@@ -73,7 +71,7 @@ export const skills = [
         image:
           "https://www.usandopy.com/media/images/article/Website_cover_-_2023-03-06T100432.430_8xu30WD.jpg",
       },
-      
+
       {
         name: "AWS",
         image:
@@ -84,7 +82,7 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
       },
-      
+
       {
         name: "Java",
         image:
@@ -115,10 +113,10 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      
+
     ],
   },
-  
+
 ];
 
 export const experiences = [
@@ -128,12 +126,13 @@ export const experiences = [
     role: "RPA Technical Lead",
     company: "TCS",
     date: "Aug 2022 - Present",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc: ["Successfully led the team during a critical 15-day period, overseeing the migration of automation from lightweight to enterprise systems and transitioning from Internet Explorer to Google Chrome.", 
+           "Strategically planned and coordinated with the team, ensuring seamless bot migration and recapture, resulting in timely execution and commendation from the client's director."],
     skills: [
       "Automation Anywhere",
       "Python",
       "UI Path",
-      "Rasa",
+      "Openpyxl",
       "NLP",
       "ServiceNow",
       "Microsoft Excel",
@@ -148,7 +147,7 @@ export const experiences = [
     role: "RPA Developer",
     company: "TCS",
     date: "July 2021 - Aug 2022",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc: ["Evolved from automating a single task to building & deploying 18 bots, driving efficiency & proving adaptability under pressure.", "Continuously mastering new automation technologies like Automation Anywhere and Rasa, while keeping existing bots in top shape, automating repetitive tasks, and fostering a collaborative learning environment."],
     skills: [
       "Automation Anywhere",
       "Python",
@@ -171,7 +170,7 @@ export const education = [
     school: "Kakatiya University College of Engineering and Technology, Warangal",
     date: "Aug 2017 - July 2021",
     grade: "80% (First Division)",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
   {
@@ -180,7 +179,7 @@ export const education = [
     school: "Sri Chaitanya Junior College, Hyderabad",
     date: "Apr 2015 - Apr 2017",
     grade: "94.8%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    desc: "",
     degree: "MPC",
   },
   {
@@ -189,103 +188,206 @@ export const education = [
     school: "Jawahar Navodaya Vidyalaya, Gachibowli",
     date: "Apr 2014 - Apr 2015",
     grade: "7.8 CGPA",
-    desc: "I completed my class 10 education at Jawahar Navodaya Vidyalaya, Gachibowli",
+    desc: "",
     degree: "CBSE(X)",
   },
 ];
 
 export const projects = [
   {
-    id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
+    id: 0,
+    title: "Online Assignment Management System",
+    date: "",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://github.com/Shashank-s3/OnlineAssignmentSubmission/assets/123372488/3dfd6bd1-6dc1-49f0-a6d8-f44608eaf0bd",
+    points: [],
     tags: [
-      "React Js",
+      "Django",
       "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+      "Python",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Git",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/Shashank-s3/OnlineAssignmentSubmission",
+    webapp: "",
+    member: [
+      {
+        name: "Shashank Sirigiripet",
+        img: "https://avatars.githubusercontent.com/u/123372488?s=400&u=4522eb0514fb9fb4edaf1209bfc62c0c7404a030&v=4",
+        linkedin: "https://www.linkedin.com/in/sirigiripet-shashank-73b66b192/",
+        github: "https://github.com/Shashank-s3/",
+      },
+      {
+        name: "Rahul Kambampati",
+        img: "https://media.licdn.com/dms/image/D5635AQFoT-NJajccfg/profile-framedphoto-shrink_400_400/0/1706721129618?e=1707901200&v=beta&t=sz16p9wAfM3Dla23NA5Wyia7B54NP7ZBJShOiPSUeSk",
+        linkedin: "https://www.linkedin.com/in/rahul-kambampati-24a94718b/",
+        github: "https://github.com/rahttps://github.com/kambampatirahul/",
+      },
+    ],
   },
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    id: 1,
+    title: "LodgifyHub",
+    date: "",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Crafted Travello, a responsive travel booking platform, using Django and PostgreSQL. Database-driven content like place details, prices, images, and offers. Dynamically pulls and displays package details, prices, and enticing offers for a user- friendly experience.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/Shashank-s3/investmentcal/blob/main/src/assets/Screenshot%202024-02-07%20at%2011.42.27%20PM.png?raw=true",
+    points: [],
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Django",
+      "Python",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "Postgresql",
+      "Dockers",
+      "Deployment",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify-management.netlify.app/",
   },
   {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    id: 2,
+    title: "To-Do Application with Authentication",
+    date: "",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Empowered 300+ users to increase productivity by 35% with a secure & user-friendly task management platform. Enhanced organization & goal achievement through task prioritization & status tracking features.",
+    points: [],
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://github.com/Shashank-s3/Todo/assets/123372488/6af85b63-17e5-4b46-aaeb-cea2e1781ba7",
+    tags: [
+        "Django",
+        "Python",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "Postgresql",
+        "Dockers",
+        "Deployment",
+      ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
+    github: "https://github.com/Shashank-s3/Todo",
+    webapp: "https://todolist-com-jva3.onrender.com/",
+
+  },
+  // {
+  //   id: 3,
+  //   title: "MIM PVN Process Automation",
+  //   date: "",
+  //   description: "Developed and implemented a data aggregation bot using Python, resulting in a 40% increase in user engagement and a 25% reduction in manual data entry time, saving the team 15 hours per week.",
+  //   points: [
+  //     'sure',
+  //     'Nice to have him'
+  //   ],
+  //   image:
+  //     "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/automationanywhere.png",
+  //   tags: [
+  //     "Automation Anywhere",
+  //     "Python",
+  //     "CSV",
+  //     "Git",
+  //   ],
+  //   category: "Automation Bot",
+  //   github: "",
+  //   webapp: "",
+  // },
+  {
+    id: 4,
+    title: "IAI Report Process Automation",
+    date: "",
+    description: "Achieved an 84% decrease in errors and project time through effective automation implementation.",
+    points: [
+      "Automated mass report processing: Eliminated manual data extraction and validation, saving 90% processing time.",
+      "Centralized data management: Consolidated validated data into a single, accessible Excel file for analysis.",
+      "Streamlined web interactions: Automated manual tasks within web pages, maximizing efficiency and accuracy."
     ],
+    image:
+      "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/automationanywhere.png",
+    tags: [
+      "Automation Anywhere",
+      "Python",
+      "CSV",
+    ],
+    category: "Automation Bot",
+    github: "",
+    webapp: "",
   },
   {
-    id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+    id: 5,
+    title: "Intake Bot Automation",
+    date: "",
+    description: "An effective approach to submit a request on behalf of user for every received email to centralized mail box so that customer can track, view and modify the requests.",
+    points: [
+      "RPA-powered email processing: Efficiently handled high email volume, automatically creating/updating requests.",
+      "Smart email parsing: Extracted key details, enabling accurate routing and action for user inquiries.",
+      "Improved user experience: Provided prompt responses and transparent tracking through automated workflows."
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    image:
+      "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/automationanywhere.png",
+    tags: [
+      "Automation Anywhere",
+      "Python",
+      "CSV",
+      "Outlook",
+      "Email Package",
+      "ABBAY"
+    ],
+    category: "Automation Bot",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Tracker Bot Automation",
+    date: "",
+    description: "Reduced manual effort to large extent",
+    points: [
+      "Automated data gathering and formatting: Streamlined tracker updates with automatic downloads, formatting, and data integration.",
+      "Real-time data consistency: Eliminated manual errors and ensured tracker accuracy through automated updates.",
+      "Enhanced efficiency: Saved significant time and effort compared to manual maintenance.",
+    ],
+    image:
+      "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/automationanywhere.png",
+    tags: [
+      "Automation Anywhere",
+      "Python",
+      "CSV",
+      "Pandas",
+      "Service Now",
+    ],
+    category: "Automation Bot",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "SecureIT Request Automation",
+    date: "",
+    description: "Fetched emails from the group mailbox, selectively filtered them, and extracted request IDs for validation. Leveraged AA360 for streamlined request processing. Verified request legitimacy through extracted request IDs. Ensured request accuracy before processing.",
+    points: [
+      "AA360 integration: Automated email processing and request ID extraction for improved efficiency.",
+      "Automated field validation: Ensured data accuracy and compliance with pre-defined criteria.",
+      "Seamless request handling: Reduced manual effort and expedited secure request completion."
+    ],
+    image:
+      "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/automationanywhere.png",
+    tags: [
+      "Automation Anywhere",
+      "Python",
+      "Service Now",
+    ],
+    category: "Automation Bot",
+    github: "",
+    webapp: "",
   },
 ];
 

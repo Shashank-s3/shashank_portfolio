@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import index from '../Experience'
+import { Padding } from '@mui/icons-material'
 
 const Document = styled.img`
     display: none;
@@ -141,7 +143,14 @@ const Skill = styled.div`
         font-size: 12px;
     }
 `
-
+const Describe = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    } 
+`
 
 
 const ExperienceCard = ({ experience }) => {
@@ -157,7 +166,19 @@ const ExperienceCard = ({ experience }) => {
             </Top>
             <Description>
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                    <>
+                        <br />
+                        <description>
+                            <b>Description:</b>
+                                <ItemWrapper>
+                                    <ul>
+                                        {experience?.desc?.map((describe, index) => (
+                                            <Describe>* {describe}</Describe>
+                                        ))}
+                                    </ul>
+                                </ItemWrapper>
+                        </description>
+                    </>
 
                 }
                 {experience?.skills &&
