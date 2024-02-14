@@ -8,6 +8,7 @@ export const Bio = {
   description:
     "I am a goal-driven Full Stack Developer with over 2 years of experience specializing in optimizing code efficiency. Proficient in Python, Django, and Automation Anywhere, I am eager to join and make impactful contributions to product development. My passion for learning, positive attitude, and growth mindset drive me to consistently deliver high-quality results and tackle new challenges effectively.",
   github: "https://github.com/Shashank-s3/",
+  leetcode: "https://leetcode.com/shashi_s3/",
   resume:
     "https://drive.google.com/file/d/1bhReW1NNnVuHrQe8c7jKyzY4j1Idx85N/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sirigiripet-shashank-73b66b192/",
